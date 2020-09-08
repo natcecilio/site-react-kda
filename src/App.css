@@ -35,10 +35,26 @@
 }
 
 .sign-up {
-  background-image: url('/images/kda-3.jpg');
+  background-image: url('/images/sombra.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+  
+}
+
+@media screen and (max-width: 600px) {
+  .services,
+.products,
+.sign-up {
+  background-repeat:no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-position:top;
+  height: auto;
+}
+
 }

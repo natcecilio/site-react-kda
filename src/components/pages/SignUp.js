@@ -15,10 +15,8 @@ import '../Form.css';
     <>
       <h1 className='sign-up'>Sign Up</h1>
       <div className='form-container'>
-          <span className='close-btn'>x</span>
-        <div className='form-content-left' >
-          <img src="images/kda-ok.jpg" alt="popstars" className="form-img" />
-        </div> 
+          
+        
           {!isSubmitted ? (
               <FormSignup submitForm={submitForm} />
             ) : (
